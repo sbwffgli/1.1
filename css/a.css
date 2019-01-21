@@ -29,9 +29,9 @@
         }
 
         a {
-			text-decoration: none;
+	    text-decoration: none;
             outline: 0;
-            color: #ff5000;
+            color: #333;
         }
 
         button, input, optgroup, select, textarea {
