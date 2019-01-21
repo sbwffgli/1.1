@@ -62,14 +62,19 @@
 
             .search-tabs li {
                 display: inline-block;
-                padding: 5px 10px;
-                border-top-right-radius:10px;
-				border-top-left-radius:10px;
-                border: 2px solid #FF5000;
-                background-color: #FFf;
+                padding: 2px 8px;
+                border-top-right-radius:7px;
+				border-top-left-radius:7px;
+                border: 1px solid #FF5000;
+                background-color: #FFF;
 				border-bottom:none;
 				cursor: pointer;
             }
+
+			.search-tabs li:hover {
+				color: #fff;
+				background: #FF7000;
+			}
 
         .search-tabs-active a {
             
@@ -82,29 +87,26 @@
 
         .input-group {
             position:relative;left:22px;
+			float: left;
         }
 
         .search-input {
             font-size: 16px;
-            width: 464px;
-            height: 42px;
+            width: 490px;
+            height: 40px;
             background-color: transparent;
 			margin: 0;
-            padding: 0 5px 0 5px;
+            padding: 0;
             border: 0;
             float: left;
 			outline: none;
         }
 
         .search-input-wrapper {
-            width: 516px;
+            width: 596px;
             height: 40px;
-            float: left;
-			position:relative;left:10px;
-			border:2px solid #ff5000;
-			border-top-left-radius:22px;
-			border-bottom-left-radius:22px;
-			border-right:none;
+			border:1px solid #ff5000;
+			border-radius: 21px;
 	        background-color: #fff;
         }
 
@@ -116,16 +118,17 @@
 
         .search-buttonpane, .search-buttonpane .search-button {
             width: 80px;
-            height: 44px;
+            height: 40px;
             float: right;
-			position:relative;right:5px;
-		    border-radius: 22px;
+			border-radius: 20px;
 			
         			
         }
 
         .search-button {
-            background-color:#FF5000;
+            
+			
+			background-color:#FF5000;
 			transition: background .4s;
             text-align: center;
             outline: 0;
