@@ -10,7 +10,7 @@
 			height: 100%;
 			margin: 0;
 			overflow-y: hidden;
-			background: #f4f4f4 url(../other/bg.jpg)   no-repeat top center;
+			background: #f4f4f4 url(https://open.saintic.com/api/bingPic/)   no-repeat top center;
 			background-size:cover; 
 			min-height:500px;
 			min-width:768px 
